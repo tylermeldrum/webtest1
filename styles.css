@@ -1,9 +1,27 @@
-body {
-	margin: 0;
-	padding: 0;
+*{
+ /* border: 1px solid #000; */
+ box-sizing: border-box;
 }
 
-#logo {
-	position: relative;
-	float: right;
+
+nav {
+  float: right;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+a {
+  color: black;
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;    
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #DDD;
+}
+
+.searchbox {
+  margin: auto;
+  width: 540px;
 }
